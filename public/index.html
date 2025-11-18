@@ -13,7 +13,6 @@
     :root {
       --primary: #2563eb;
       --primary-dark: #1d4ed8;
-      --primary-soft: #eff4ff;
       --bg: #020617;
       --card-bg: rgba(15, 23, 42, 0.92);
       --border-soft: rgba(148, 163, 184, 0.3);
@@ -24,14 +23,12 @@
       --warning: #eab308;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
       padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
       background: radial-gradient(circle at top left, #1d4ed8 0, #020617 40%, #000 100%);
       color: var(--text-main);
       min-height: 100vh;
@@ -53,9 +50,9 @@
       max-width: 1100px;
       min-height: 70vh;
       border-radius: 24px;
-      background: linear-gradient(145deg, rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.96));
-      border: 1px solid rgba(148, 163, 184, 0.35);
-      box-shadow: 0 24px 80px rgba(15, 23, 42, 0.9);
+      background: linear-gradient(145deg, rgba(15,23,42,0.92), rgba(15,23,42,0.96));
+      border: 1px solid rgba(148,163,184,0.35);
+      box-shadow: 0 24px 80px rgba(15,23,42,0.9);
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -70,9 +67,9 @@
       backdrop-filter: blur(16px);
       background: linear-gradient(
         to right,
-        rgba(15, 23, 42, 0.92),
-        rgba(15, 23, 42, 0.7),
-        rgba(37, 99, 235, 0.15)
+        rgba(15,23,42,0.92),
+        rgba(15,23,42,0.7),
+        rgba(37,99,235,0.15)
       );
     }
 
@@ -104,26 +101,26 @@
       font-size: 11px;
       padding: 4px 10px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
+      border: 1px solid rgba(148,163,184,0.6);
       text-transform: uppercase;
       letter-spacing: 0.08em;
     }
 
     .role-CANDIDATE {
-      background: rgba(22, 163, 74, 0.12);
-      border-color: rgba(34, 197, 94, 0.7);
+      background: rgba(22,163,74,0.12);
+      border-color: rgba(34,197,94,0.7);
       color: #bbf7d0;
     }
 
     .role-INSTRUCTOR {
-      background: rgba(56, 189, 248, 0.12);
-      border-color: rgba(56, 189, 248, 0.7);
+      background: rgba(56,189,248,0.12);
+      border-color: rgba(56,189,248,0.7);
       color: #a5f3fc;
     }
 
     .role-ADMIN {
-      background: rgba(248, 250, 252, 0.06);
-      border-color: rgba(148, 163, 184, 0.7);
+      background: rgba(248,250,252,0.06);
+      border-color: rgba(148,163,184,0.7);
       color: #e5e7eb;
     }
 
@@ -145,24 +142,24 @@
 
     .btn-primary {
       background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-      border-color: rgba(37, 99, 235, 0.3);
+      border-color: rgba(37,99,235,0.3);
       color: white;
-      box-shadow: 0 10px 30px rgba(37, 99, 235, 0.4);
+      box-shadow: 0 10px 30px rgba(37,99,235,0.4);
     }
 
     .btn-primary:hover {
       transform: translateY(-1px);
-      box-shadow: 0 16px 40px rgba(37, 99, 235, 0.55);
+      box-shadow: 0 16px 40px rgba(37,99,235,0.55);
     }
 
     .btn-ghost {
-      border-color: rgba(148, 163, 184, 0.5);
-      background: rgba(15, 23, 42, 0.6);
+      border-color: rgba(148,163,184,0.5);
+      background: rgba(15,23,42,0.6);
     }
 
     .btn-ghost:hover {
-      background: rgba(30, 64, 175, 0.5);
-      border-color: rgba(96, 165, 250, 0.9);
+      background: rgba(30,64,175,0.5);
+      border-color: rgba(96,165,250,0.9);
     }
 
     .shell-body {
@@ -183,10 +180,10 @@
     .card {
       border-radius: 18px;
       padding: 16px 16px 18px;
-      background: radial-gradient(circle at top left, rgba(148, 163, 184, 0.09), transparent 55%),
-                  radial-gradient(circle at bottom right, rgba(30, 64, 175, 0.45), rgba(15, 23, 42, 0.9) 70%);
-      border: 1px solid rgba(148, 163, 184, 0.45);
-      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.85);
+      background: radial-gradient(circle at top left, rgba(148,163,184,0.09), transparent 55%),
+                  radial-gradient(circle at bottom right, rgba(30,64,175,0.45), rgba(15,23,42,0.9) 70%);
+      border: 1px solid rgba(148,163,184,0.45);
+      box-shadow: 0 18px 40px rgba(15,23,42,0.85);
     }
 
     .card h2, .card h3, .card h4 {
@@ -216,8 +213,8 @@
     .field select,
     .field textarea {
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(148,163,184,0.7);
+      background: rgba(15,23,42,0.85);
       color: var(--text-main);
       padding: 8px 12px;
       font-size: 13px;
@@ -233,8 +230,8 @@
     .field input:focus,
     .field select:focus,
     .field textarea:focus {
-      border-color: rgba(59, 130, 246, 0.95);
-      box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.75);
+      border-color: rgba(59,130,246,0.95);
+      box-shadow: 0 0 0 1px rgba(59,130,246,0.75);
     }
 
     .helper-text {
@@ -250,8 +247,8 @@
       padding: 4px 10px;
       border-radius: 999px;
       font-size: 11px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
-      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(148,163,184,0.6);
+      background: rgba(15,23,42,0.8);
     }
 
     .pill-dot {
@@ -264,6 +261,23 @@
     .pill-warning .pill-dot { background: var(--warning); }
     .pill-neutral .pill-dot { background: #64748b; }
 
+    .pill-clickable {
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .pill-clickable:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 30px rgba(37,99,235,0.35);
+      border-color: rgba(96,165,250,0.9);
+    }
+
+    .pill-active {
+      box-shadow: 0 0 0 1px rgba(96,165,250,0.9);
+      border-color: rgba(96,165,250,1);
+      background: rgba(37,99,235,0.25);
+    }
+
     .status-chip {
       display: inline-flex;
       padding: 2px 8px;
@@ -274,25 +288,25 @@
     }
 
     .status-BOOKED {
-      background: rgba(37, 99, 235, 0.15);
+      background: rgba(37,99,235,0.15);
       color: #bfdbfe;
     }
 
     .status-COMPLETED {
-      background: rgba(22, 163, 74, 0.18);
+      background: rgba(22,163,74,0.18);
       color: #bbf7d0;
     }
 
     .status-CANCELLED {
-      background: rgba(248, 113, 113, 0.15);
+      background: rgba(248,113,113,0.15);
       color: #fecaca;
     }
 
     .table-wrap {
       border-radius: 15px;
-      border: 1px solid rgba(148, 163, 184, 0.5);
+      border: 1px solid rgba(148,163,184,0.5);
       overflow: hidden;
-      background: rgba(15, 23, 42, 0.9);
+      background: rgba(15,23,42,0.9);
     }
 
     table {
@@ -303,25 +317,18 @@
 
     th, td {
       padding: 8px 10px;
-      border-bottom: 1px solid rgba(30, 41, 59, 0.9);
+      border-bottom: 1px solid rgba(30,41,59,0.9);
     }
 
     thead {
-      background: radial-gradient(circle at top left, rgba(148, 163, 184, 0.3), rgba(15, 23, 42, 0.95));
+      background: radial-gradient(circle at top left, rgba(148,163,184,0.3), rgba(15,23,42,0.95));
       color: #e5e7eb;
     }
 
-    tbody tr:nth-child(odd) {
-      background: rgba(15, 23, 42, 0.9);
-    }
+    tbody tr:nth-child(odd) { background: rgba(15,23,42,0.9); }
+    tbody tr:nth-child(even) { background: rgba(15,23,42,0.85); }
 
-    tbody tr:nth-child(even) {
-      background: rgba(15, 23, 42, 0.85);
-    }
-
-    tbody tr:hover {
-      background: rgba(30, 64, 175, 0.4);
-    }
+    tbody tr:hover { background: rgba(30,64,175,0.4); }
 
     .empty-state {
       padding: 10px;
@@ -365,6 +372,7 @@
     const API_URL = "/api";
 
     // ============ Auth Hook ============
+
     function useAuth() {
       const [user, setUser] = React.useState(null);
       const [token, setToken] = React.useState(null);
@@ -400,11 +408,11 @@
       return { user, token, login, logout };
     }
 
-    // ============ Login ============
+    // ============ Login (no visible demo credentials) ============
 
     function Login({ onLogin }) {
-      const [email, setEmail] = React.useState("candidate1@example.com");
-      const [password, setPassword] = React.useState("password");
+      const [email, setEmail] = React.useState("");
+      const [password, setPassword] = React.useState("");
       const [error, setError] = React.useState("");
 
       const handleSubmit = async e => {
@@ -429,13 +437,9 @@
             <div className="card">
               <h2>Sign in</h2>
               <p className="card-subtitle">
-                Use one of these demo accounts to explore Candidate, Instructor, and Admin views.
+                Enter your assigned credentials to access the portal.
               </p>
-              <div className="helper-text">
-                Candidate: <code>candidate1@example.com / password</code><br />
-                Instructor: <code>instructor1@example.com / password</code><br />
-                Admin: <code>admin1@example.com / password</code>
-              </div>
+
               <form onSubmit={handleSubmit}>
                 <div className="field">
                   <label>Email</label>
@@ -472,7 +476,7 @@
       );
     }
 
-    // ============ Candidate Dashboard ============
+    // ============ Candidate Dashboard (with clickable snapshot) ============
 
     function CandidateDashboard({ token }) {
       const [instructors, setInstructors] = React.useState([]);
@@ -480,6 +484,7 @@
       const [date, setDate] = React.useState("");
       const [instructorId, setInstructorId] = React.useState("");
       const [availability, setAvailability] = React.useState([]);
+      const [statusFilter, setStatusFilter] = React.useState("ALL");
 
       const headers = {
         "Content-Type": "application/json",
@@ -528,6 +533,19 @@
         setAvailability([]);
         loadLessons();
       };
+
+      const bookedCount = lessons.filter(l => l.status === "BOOKED").length;
+      const completedCount = lessons.filter(l => l.status === "COMPLETED").length;
+
+      const filteredLessons = React.useMemo(() => {
+        if (statusFilter === "BOOKED") {
+          return lessons.filter(l => l.status === "BOOKED");
+        }
+        if (statusFilter === "COMPLETED") {
+          return lessons.filter(l => l.status === "COMPLETED");
+        }
+        return lessons;
+      }, [lessons, statusFilter]);
 
       return (
         <>
@@ -595,30 +613,50 @@
             <div className="card">
               <h2>Progress snapshot</h2>
               <p className="card-subtitle">
-                Quick overview of your upcoming bookings and completed lessons.
+                Click a pill to filter the lessons table below by status.
               </p>
               <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-                <div className="pill pill-neutral">
+                <div
+                  className={
+                    "pill pill-neutral pill-clickable" +
+                    (statusFilter === "BOOKED" ? " pill-active" : "")
+                  }
+                  onClick={() =>
+                    setStatusFilter(prev => (prev === "BOOKED" ? "ALL" : "BOOKED"))
+                  }
+                >
                   <span className="pill-dot"></span>
-                  <span>
-                    Booked:{" "}
-                    {lessons.filter(l => l.status === "BOOKED").length}
-                  </span>
+                  <span>Booked: {bookedCount}</span>
                 </div>
-                <div className="pill pill-success">
+                <div
+                  className={
+                    "pill pill-success pill-clickable" +
+                    (statusFilter === "COMPLETED" ? " pill-active" : "")
+                  }
+                  onClick={() =>
+                    setStatusFilter(prev =>
+                      prev === "COMPLETED" ? "ALL" : "COMPLETED"
+                    )
+                  }
+                >
                   <span className="pill-dot"></span>
-                  <span>
-                    Completed:{" "}
-                    {lessons.filter(l => l.status === "COMPLETED").length}
-                  </span>
+                  <span>Completed: {completedCount}</span>
                 </div>
+              </div>
+              <div className="helper-text" style={{ marginTop: 10 }}>
+                Current filter:{" "}
+                {statusFilter === "ALL"
+                  ? "All lessons"
+                  : statusFilter === "BOOKED"
+                  ? "Booked lessons"
+                  : "Completed lessons"}
               </div>
             </div>
           </div>
 
           <div className="card">
             <h3>My lessons</h3>
-            <LessonTable lessons={lessons} showCandidate={false} />
+            <LessonTable lessons={filteredLessons} showCandidate={false} />
           </div>
         </>
       );
@@ -852,7 +890,7 @@
       );
     }
 
-    // ============ Lesson Table ============
+    // ============ Reusable Lesson Table ============
 
     function LessonTable({ lessons, showCandidate = true, showInstructor = true, onFeedback }) {
       if (!lessons.length) {
